@@ -1,0 +1,17 @@
+E:\自己\C#\练习\Bus\bin\Debug\Bus.dll.config
+E:\自己\C#\练习\Bus\bin\Debug\Bus.dll
+E:\自己\C#\练习\Bus\bin\Debug\Bus.pdb
+E:\自己\C#\练习\Bus\bin\Debug\EntityFramework.dll
+E:\自己\C#\练习\Bus\bin\Debug\EntityFramework.SqlServer.dll
+E:\自己\C#\练习\Bus\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+E:\自己\C#\练习\Bus\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\自己\C#\练习\Bus\bin\Debug\EntityFramework.xml
+E:\自己\C#\练习\Bus\bin\Debug\EntityFramework.SqlServer.xml
+E:\自己\C#\练习\Bus\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+E:\自己\C#\练习\Bus\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\自己\C#\练习\Bus\obj\Debug\Bus.csproj.CoreCompileInputs.cache
+E:\自己\C#\练习\Bus\obj\Debug\Bus.dll
+E:\自己\C#\练习\Bus\obj\Debug\Bus.pdb
+E:\自己\C#\练习\Bus\bin\Debug\Autofac.Model.dll
+E:\自己\C#\练习\Bus\bin\Debug\Autofac.Model.pdb
+E:\自己\C#\练习\Bus\obj\Debug\Bus.csprojResolveAssemblyReference.cache

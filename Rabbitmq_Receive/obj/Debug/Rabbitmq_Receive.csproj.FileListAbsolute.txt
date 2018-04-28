@@ -1,0 +1,11 @@
+E:\自己\C#\练习\Rabbitmq_Receive\bin\Debug\Rabbitmq_Receive.exe.config
+E:\自己\C#\练习\Rabbitmq_Receive\bin\Debug\Rabbitmq_Receive.exe
+E:\自己\C#\练习\Rabbitmq_Receive\bin\Debug\Rabbitmq_Receive.pdb
+E:\自己\C#\练习\Rabbitmq_Receive\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.dll
+E:\自己\C#\练习\Rabbitmq_Receive\bin\Debug\RabbitMQ.Client.dll
+E:\自己\C#\练习\Rabbitmq_Receive\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.xml
+E:\自己\C#\练习\Rabbitmq_Receive\bin\Debug\RabbitMQ.Client.xml
+E:\自己\C#\练习\Rabbitmq_Receive\obj\Debug\Rabbitmq_Receive.csprojResolveAssemblyReference.cache
+E:\自己\C#\练习\Rabbitmq_Receive\obj\Debug\Rabbitmq_Receive.csproj.CoreCompileInputs.cache
+E:\自己\C#\练习\Rabbitmq_Receive\obj\Debug\Rabbitmq_Receive.exe
+E:\自己\C#\练习\Rabbitmq_Receive\obj\Debug\Rabbitmq_Receive.pdb

@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{308638BB-3C36-4ADE-B4D2-BAFBB4E6CB2E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Wss.DoMain</RootNamespace>
+    <AssemblyName>Wss.DoMain</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.7.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Domain.cs" />
+    <Compile Include="Jwt\Enum.cs" />
+    <Compile Include="Jwt\EnumExtensions.cs" />
+    <Compile Include="Jwt\HMACSHA256Algorithm.cs" />
+    <Compile Include="Jwt\HMACSHA384Algorithm.cs" />
+    <Compile Include="Jwt\HMACSHA512Algorithm.cs" />
+    <Compile Include="Jwt\HMACSHAAlgorithmFactory.cs" />
+    <Compile Include="Jwt\IAlgorithmFactory.cs" />
+    <Compile Include="Jwt\IBase64UrlEncoder.cs" />
+    <Compile Include="Jwt\IDateTimeProvider.cs" />
+    <Compile Include="Jwt\IJsonSerializer.cs" />
+    <Compile Include="Jwt\IJwtAlgorithm.cs" />
+    <Compile Include="Jwt\IJwtDecoder.cs" />
+    <Compile Include="Jwt\IJwtEncoder.cs" />
+    <Compile Include="Jwt\IJwtValidator.cs" />
+    <Compile Include="Jwt\InvalidTokenPartsException.cs" />
+    <Compile Include="Jwt\JsonNetSerializer.cs" />
+    <Compile Include="Jwt\JwtBase64UrlEncoder.cs" />
+    <Compile Include="Jwt\JwtBuilder.cs" />
+    <Compile Include="Jwt\JwtData.cs" />
+    <Compile Include="Jwt\JwtDecoder.cs" />
+    <Compile Include="Jwt\JwtEncoder.cs" />
+    <Compile Include="Jwt\JwtParts.cs" />
+    <Compile Include="Jwt\JwtValidator.cs" />
+    <Compile Include="Jwt\SignatureVerificationException.cs" />
+    <Compile Include="Jwt\TokenExpiredException.cs" />
+    <Compile Include="Jwt\UnixEpoch.cs" />
+    <Compile Include="Jwt\UtcDateTimeProvider.cs" />
+    <Compile Include="ListExtend.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Day.Model\Wss.Model.csproj">
+      <Project>{C5A5427F-301D-4511-B0FD-B9036313A3F7}</Project>
+      <Name>Wss.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

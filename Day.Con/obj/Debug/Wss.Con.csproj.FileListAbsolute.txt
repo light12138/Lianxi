@@ -1,0 +1,13 @@
+E:\自己\C#\练习\Day.Con\bin\Debug\Wss.Con.exe.config
+E:\自己\C#\练习\Day.Con\bin\Debug\Wss.Con.exe
+E:\自己\C#\练习\Day.Con\bin\Debug\Wss.Con.pdb
+E:\自己\C#\练习\Day.Con\bin\Debug\Wss.DoMain.dll
+E:\自己\C#\练习\Day.Con\bin\Debug\Wss.Model.dll
+E:\自己\C#\练习\Day.Con\bin\Debug\Newtonsoft.Json.dll
+E:\自己\C#\练习\Day.Con\bin\Debug\Wss.DoMain.pdb
+E:\自己\C#\练习\Day.Con\bin\Debug\Wss.Model.pdb
+E:\自己\C#\练习\Day.Con\bin\Debug\Newtonsoft.Json.xml
+E:\自己\C#\练习\Day.Con\obj\Debug\Wss.Con.csprojResolveAssemblyReference.cache
+E:\自己\C#\练习\Day.Con\obj\Debug\Wss.Con.csproj.CoreCompileInputs.cache
+E:\自己\C#\练习\Day.Con\obj\Debug\Wss.Con.exe
+E:\自己\C#\练习\Day.Con\obj\Debug\Wss.Con.pdb

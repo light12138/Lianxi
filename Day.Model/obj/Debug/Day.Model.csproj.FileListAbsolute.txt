@@ -1,0 +1,6 @@
+E:\自己\C#\练习\Day.Model\bin\Debug\Day.Model.dll
+E:\自己\C#\练习\Day.Model\bin\Debug\Day.Model.pdb
+E:\自己\C#\练习\Day.Model\obj\Debug\Day.Model.csprojResolveAssemblyReference.cache
+E:\自己\C#\练习\Day.Model\obj\Debug\Day.Model.csproj.CoreCompileInputs.cache
+E:\自己\C#\练习\Day.Model\obj\Debug\Day.Model.dll
+E:\自己\C#\练习\Day.Model\obj\Debug\Day.Model.pdb

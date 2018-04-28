@@ -1,0 +1,6 @@
+E:\自己\C#\练习\Autofac.Model\bin\Debug\Autofac.Model.dll
+E:\自己\C#\练习\Autofac.Model\bin\Debug\Autofac.Model.pdb
+E:\自己\C#\练习\Autofac.Model\obj\Debug\Autofac.Model.csproj.CoreCompileInputs.cache
+E:\自己\C#\练习\Autofac.Model\obj\Debug\Autofac.Model.dll
+E:\自己\C#\练习\Autofac.Model\obj\Debug\Autofac.Model.pdb
+E:\自己\C#\练习\Autofac.Model\obj\Debug\Autofac.Model.csprojResolveAssemblyReference.cache

@@ -1,0 +1,65 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+    Layout = null;
+}
+<link href="~/Content/bootstrap.css" rel="stylesheet" />
+<div>
+
+
+
+
+    <button class="btn btn-primary" onclick="GetToken()">获取Token</button>
+
+    <button class="btn btn-primary" onclick="CheckToken()">验证Token</button>
+
+    <button class="btn btn-primary" onclick="RemoveToken()">删除Token</button>
+</div>
+
+
+<script src="~/Scripts/jquery-1.10.2.js"></script>
+<script src="~/Scripts/bootstrap.min.js"></script>
+<script>
+    function GetToken() {
+
+        var request = new XMLHttpRequest();
+        //request.setRequestHeader()
+        request.open("post", "/Home/GetToken", true);
+        request.send();
+        request.onreadystatechange = function () {
+            if (request.status == 200 && request.readyState == 4) {
+                var data = JSON.parse(request.responseText);
+                console.log(data);
+                var token = data.token;
+                localStorage.token = token;
+                alert("存储成功");
+            }
+        }
+    }
+
+
+    function CheckToken() {
+        var token = localStorage.getItem("token");
+        var request = new XMLHttpRequest();
+        request.open("post", "/Home/CheckToken", true);
+        request.setRequestHeader("token", token);      
+        request.send();
+        request.onreadystatechange = function () {
+            if (request.status == 200 && request.readyState == 4) {
+                var json = JSON.parse(request.responseText);
+                console.log(json);
+                console.log(json.data)
+
+
+            }
+        }
+    }
+
+    function RemoveToken() {
+        //$.post("/Home/RemoveToken", null, function (data) {
+        //    console.log(data);
+
+        //})
+        localStorage.removeItem("token");
+
+    }
+</script>

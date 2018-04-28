@@ -1,0 +1,7 @@
+E:\自己\C#\练习\AsyncCon\bin\Debug\AsyncCon.exe.config
+E:\自己\C#\练习\AsyncCon\bin\Debug\AsyncCon.exe
+E:\自己\C#\练习\AsyncCon\bin\Debug\AsyncCon.pdb
+E:\自己\C#\练习\AsyncCon\obj\Debug\AsyncCon.csprojResolveAssemblyReference.cache
+E:\自己\C#\练习\AsyncCon\obj\Debug\AsyncCon.csproj.CoreCompileInputs.cache
+E:\自己\C#\练习\AsyncCon\obj\Debug\AsyncCon.exe
+E:\自己\C#\练习\AsyncCon\obj\Debug\AsyncCon.pdb

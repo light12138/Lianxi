@@ -1,0 +1,10 @@
+E:\自己\C#\练习\Day.DoMain\obj\Debug\Day.DoMain.csprojResolveAssemblyReference.cache
+E:\自己\C#\练习\Day.DoMain\obj\Debug\Day.DoMain.csproj.CoreCompileInputs.cache
+E:\自己\C#\练习\Day.DoMain\bin\Debug\Day.DoMain.dll
+E:\自己\C#\练习\Day.DoMain\bin\Debug\Day.DoMain.pdb
+E:\自己\C#\练习\Day.DoMain\bin\Debug\Day.Model.dll
+E:\自己\C#\练习\Day.DoMain\bin\Debug\Day.Model.pdb
+E:\自己\C#\练习\Day.DoMain\obj\Debug\Day.DoMain.dll
+E:\自己\C#\练习\Day.DoMain\obj\Debug\Day.DoMain.pdb
+E:\自己\C#\练习\Day.DoMain\bin\Debug\Newtonsoft.Json.dll
+E:\自己\C#\练习\Day.DoMain\bin\Debug\Newtonsoft.Json.xml
